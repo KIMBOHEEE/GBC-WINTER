@@ -1,0 +1,6 @@
+<project name = "gbc_1st" basedir = ".">
+<target name = "greet">
+</target>
+<target name = "bye">
+</target>
+</project>
