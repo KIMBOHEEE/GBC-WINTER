@@ -1,6 +1,9 @@
-<project name = "gbc_1st" basedir = ".">
-<target name = "greet">
-</target>
-<target name = "bye">
+<project name = "gbc_1st" basedir = "." default = "compile">
+
+
+<target name = "compile">
+    <javac srcdir="./ASD/greet/" destdir="./" includes = "hello.java"/>
+    <javac srcdir="./ASD/bye/" destdir="./" includes = "bye.java"/>
 </target>
 </project>
+
